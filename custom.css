@@ -25,7 +25,11 @@
     color: aliceblue;
     font-weight: 500;
 }
-
+.btn{
+    font-size: 2rem;
+    background-color: #3de8e8;
+    width: 4rem;
+}
 
 
 

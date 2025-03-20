@@ -1,15 +1,12 @@
 function calculate() {
 
     let num1 = parseFloat(document.getElementById("num1").value);
-    var num2 = parseFloat(document.getElementById("num2").value);
-    var operator = document.getElementById("operator").value;
-    var resultBox = document.getElementById("result");
+    let num2 = parseFloat(document.getElementById("num2").value);
+    let operator = document.getElementById("operator").value;
+    let resultBox = document.getElementById("result");
 
 
-    // if (isNaN(num1) || isNaN(num2) || operator === "") {
-    //     resultBox.value = "Invalid Input!";
-    //     return;
-    // }
+    
 
     if (operator == "+") {
         result = num1 + num2;
@@ -22,6 +19,11 @@ function calculate() {
     } else {
         alert("Invalid operator");
     }
+
+    // if (isNaN(num1) || isNaN(num2) || operator === "") {
+    //     resultBox.value = "Invalid Input!";
+    //     return;
+    // }
 
     // var result;
 
