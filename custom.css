@@ -1,0 +1,42 @@
+.calculator{
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+}
+.userinputbox{
+    background-color: #4c4d4d;
+}
+.Outputbox{
+    background-color: #4c4d4d;
+}
+
+.Outputbox{
+    margin-bottom: 3rem;
+}
+
+.form-control-lg{
+    width: 5rem;
+}
+.calculator h3{
+    color: aliceblue;
+    font-weight: 500;
+}
+.form-group label{
+    color: aliceblue;
+    font-weight: 500;
+}
+
+
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+input[type="number"] 
+{
+    -moz-appearance: textfield;
+}
